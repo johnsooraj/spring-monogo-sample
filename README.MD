@@ -27,3 +27,9 @@ E11000 duplicate key error collection: test.users index: address_index dup key: 
 >4. upsert() - If no document matches then create new one with Query, Update objects.
 >5. findAndModify() - Same as the updateMulti, an option like can return newly added document.
 >[ReferenceLink](https://www.mkyong.com/mongodb/spring-data-mongodb-update-document/ "www.mkyong.com")
+				Query query6 = new Query();
+				Update update6 = new Update();
+				User userTest6 = mongoOperation.findAndModify(query6, update6, new FindAndModifyOptions().returnNew(true), User.class);
+
+**5. Difference between SQL and NoSQL ?**
+>
