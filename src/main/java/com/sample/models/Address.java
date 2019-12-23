@@ -10,8 +10,10 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @NoArgsConstructor
 @Data
 @Document
-public class Addess {
+public class Address {
 
     @Id
     private String id;
+
+    private String addressLine1;
 }
