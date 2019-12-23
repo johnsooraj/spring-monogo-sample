@@ -17,7 +17,7 @@ com.mongodb.MongoWriteException: E11000 duplicate key error collection: test.use
 Error be like this,
 E11000 duplicate key error collection: test.users index: address_index dup key: { : ObjectId('5e005e85067de76a1d5859ee') }; nested exception is com.mongodb.MongoWriteException: E11000 duplicate key error collection: test.users index: address_index dup key: { : ObjectId('5e005e85067de76a1d5859ee') }
 
-**3. How can we avoid the Duplication of data in Collections ? **
+**3. How can we avoid the Duplication of data in Collections ?**
 >Using of unique key indexing in collection can remove duplicate datas(see the question 2).
 
 **4. Document update in Collection**
