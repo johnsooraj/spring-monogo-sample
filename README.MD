@@ -42,5 +42,4 @@ E11000 duplicate key error collection: test.users index: address_index dup key: 
                 				query6, update6, 
                 				new FindAndModifyOptions().returnNew(true), User.class);
                 				
-**5. Difference between SQL and NoSQL ?**
 >
