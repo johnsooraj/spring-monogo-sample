@@ -22,8 +22,8 @@ E11000 duplicate key error collection: test.users index: address_index dup key: 
 
 **4. Document update in Collection**
 >1. save() - update whole object, if _id present it will update else create new document.
-2. updateFirst() - update the first document the matches the query.
-3. updateMulti() - update the all document the matches the query.
-4. upsert() - If no document matches then create new one with Query, Update objects.
-5. findAndModify() - Same as the updateMulti, an option like can return newly added document.
-[ReferenceLink](https://www.mkyong.com/mongodb/spring-data-mongodb-update-document/ "www.mkyong.com")
+>2. updateFirst() - update the first document the matches the query.
+>3. updateMulti() - update the all document the matches the query.
+>4. upsert() - If no document matches then create new one with Query, Update objects.
+>5. findAndModify() - Same as the updateMulti, an option like can return newly added document.
+>[ReferenceLink](https://www.mkyong.com/mongodb/spring-data-mongodb-update-document/ "www.mkyong.com")
